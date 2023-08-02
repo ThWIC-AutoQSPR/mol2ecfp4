@@ -35,7 +35,7 @@ def get_mol_reader(filename):
 
 def get_name(mol):
     return mol.GetProp('_Name')
-    
+
 argc = len(sys.argv)
 if argc != 2:
     #                           0          1
